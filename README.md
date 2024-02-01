@@ -3,7 +3,8 @@ API criada para criação de CRUD gestão de tarefas usando Python + Flask
 
  
 ## Requisitos 
-Para instalar é necessário ter o python instalado.
+Para utilizar este app é necessário ter o python instalado.
+https://www.python.org/
 
 # Instalação
 Execute o comando: 
