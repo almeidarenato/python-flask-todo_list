@@ -32,7 +32,7 @@ def get_tasks():
     }
     return jsonify(output)
 
-# <int:id> recebe um parametro do tipo id
+# <int:id> recebe um parametro do tipo int
 @app.route('/tasks/<int:id>',methods=['GET'])
 def get_task(id):
      task = None
