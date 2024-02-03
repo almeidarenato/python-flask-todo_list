@@ -32,5 +32,15 @@ def get_tasks():
     }
     return jsonify(output)
 
+# <int:id> recebe um parametro do tipo id
+@app.route('/tasks/<int:id>',methods=['GET'])
+def get_task(id):
+     task = None
+     for t in tasks:
+         if t.id == id:
+            return jsonify(t.to_dict())
+         
+     return jsonify({"message": "Náo foi possível encontrar a atividade"}),404
+
 if __name__ == '__main__':
     app.run(debug=True)
