@@ -39,7 +39,7 @@ def get_task(id):
      for t in tasks:
          if t.id == id:
             return jsonify(t.to_dict())
-         
+         # o ,404 é uma forma de informar o código do erro
      return jsonify({"message": "Náo foi possível encontrar a atividade"}),404
 
 if __name__ == '__main__':
