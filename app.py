@@ -42,5 +42,12 @@ def get_task(id):
          # o ,404 é uma forma de informar o código do erro
      return jsonify({"message": "Náo foi possível encontrar a atividade"}),404
 
+# Exemplo de uso de parametro de rota. String (str) é o tipo padrão se você não preencher
+# @app.route('/user/<username>')
+# def show_user(username):
+#     print(username)
+#     print(type(username))
+#     return username
+
 if __name__ == '__main__':
     app.run(debug=True)
