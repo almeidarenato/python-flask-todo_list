@@ -11,6 +11,16 @@ Execute o comando:
 ```bash
 pip3 install -r requirements.txt
 ```
-
+# Execução do projeto
+No terminal execute o comando:
+```bash
+python3 app.py
+```
 # Rotas
 ![Rotas](./routes.png)
+
+# Testes automatizados
+Com o projeto sendo executado, em outro terminal execute o comando:
+```bash
+pytest tests.py -v
+```
