@@ -11,3 +11,6 @@ Execute o comando:
 ```bash
 pip3 install -r requirements.txt
 ```
+
+# Rotas
+![Rotas](./routes.png)
