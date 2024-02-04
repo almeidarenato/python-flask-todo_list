@@ -20,6 +20,7 @@ python3 app.py
 ![Rotas](./routes.png)
 
 # Testes automatizados
+O projeto utiliza a biblioteca Pytest para execução de testes.
 Com o projeto sendo executado, em outro terminal execute o comando:
 ```bash
 pytest tests.py -v
