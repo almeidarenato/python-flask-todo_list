@@ -60,7 +60,7 @@ def update_task(id):
     
     data = request.get_json()
     task.title = data['title']
-    task.title = data['description']
+    task.description = data['description']
     task.completed = data['completed']
 
     #por padrão o código retornado é sempre 200 (sucesso)
