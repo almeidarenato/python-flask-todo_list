@@ -25,3 +25,6 @@ Com o projeto sendo executado, em outro terminal execute o comando:
 ```bash
 pytest tests.py -v
 ```
+O output dos testes no terminal deve ser similar a esse: 
+
+![Rotas](./tests.png)
